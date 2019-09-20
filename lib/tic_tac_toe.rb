@@ -119,23 +119,23 @@ class TicTacToe
     
   def winner
     winning_combo = won?
-<<<<<<< HEAD
+# <<<<<<< HEAD
     if winning_combo
       @board[winning_combo[0]]
     else
       nil
-=======
+# =======
       
-    if winning_combo != nil
-      @board[winning_combo[0]]
-    else
->>>>>>> a37e19b154538d25fe1a3a64b9a34d924d2e1094
+#     if winning_combo != nil
+#       @board[winning_combo[0]]
+#     else
+# >>>>>>> a37e19b154538d25fe1a3a64b9a34d924d2e1094
     end
   end
   
   def play
     
-<<<<<<< HEAD
+# <<<<<<< HEAD
     
     until over?
       turn
@@ -147,22 +147,22 @@ class TicTacToe
       puts "Cat's Game!"
     end
 
-=======
-    full_board = false
+# =======
+#     full_board = false
     
-    while full_board == false
-      turn
-      full_board = full?
-    end
+#     while full_board == false
+#       turn
+#       full_board = full?
+#     end
     
     
-    winning_player = winner
-    if won?
-      puts "Congratulations, player #{winning_player}!"
-    else
-      puts "Cat's Game!"
-    end
->>>>>>> a37e19b154538d25fe1a3a64b9a34d924d2e1094
+#     winning_player = winner
+#     if won?
+#       puts "Congratulations, player #{winning_player}!"
+#     else
+#       puts "Cat's Game!"
+#     end
+# >>>>>>> a37e19b154538d25fe1a3a64b9a34d924d2e1094
     
   end
     
